@@ -116,6 +116,7 @@ portfolio-img-background{
 body {
     font-family: "Lato", sans-serif;
     margin: 0px;
+    width:100%;
 }
 
 
@@ -162,10 +163,9 @@ body {
 }
 
 
-
-    .active-nav-link a {
+.active-nav-link a {
         color: black !important;
-    }
+}
 
 
 
@@ -227,10 +227,10 @@ body {
 
 
 
-    .img-text-wrapper .subtitle {
-        transition: 1s;
-        color: transparent;
-    }
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+}
 
 
 
@@ -275,4 +275,23 @@ body {
 
 .profile-content-wrapper h1 {
     color: lightseagreen;
+}
+
+.container1 {
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top:25%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    object-position: bottom;
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
 }
